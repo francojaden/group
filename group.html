@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Front Page</title>
+  <link rel="stylesheet" href="group.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap">
+</head>
+<body>
+
+
+  <div class="navbar">
+    <a href="#top">Top</a>
+    <a href="#section1">Home</a>
+    <a href="#section2">About</a>
+    <a href="#section4">Contact</a>
+  </div>
+
+  <!-- Top Image -->
+  <div class="top-image" id="top">
+    <img src="img/keyboard.png" alt="Top Image">
+  </div>
+
+  <!-- Hero Section -->
+  <div id="section1" class="section hero">
+    <h1>Fundamentals Of Computing</h1>
+    <p>Welcome to the group page!<br>Here is a NOT Gate</p>
+
+    <button onclick="document.getElementById('myImage').src='img/onNOT.png'">On</button>
+
+
+
+    <button onclick="document.getElementById('myImage').src='img/offNOT.png'">Off</button>
+    <img id="myImage" src="img/onNOT.png" style="width:300px">
+
+  </div>
+
+  <div class="imagee">
+    <img src="img/kittty.png" alt="Imagee">
+  </div>
+
+
+
+
+  <!-- Sections -->
+  <div id="section2" class="section">
+    <h2>What is this Course?</h2>
+    <p>What is this course?
+        This course is an introduction to the fundamentals of Computer Science that will provide students with a foundation for future courses in Computer Science.
+        The course is a broad survey of the discipline through topics that allow students to understand the capabilities of computer systems in terms of: the computer architecture; operating systems and computer networks; software and software development; data organization and visualization; and the potential of computing machines.</p>
+  </div>
+
+
+
+  <div id="section4" class="section">
+    <h2>DevTeam/Contact</h2>
+    <div class="button-container">
+        
+        <a href="https://francojaden.github.io/Resume/Front.html" class="custom-button" onclick="playSound()">
+            <img src="img/f1.png" alt="Contact Icon">
+            <p>Jaden</p>
+          </a>
+  
+        
+        <a href="#" class="custom-button">
+            <img src="img/no.png" alt="Contact Icon">
+            <p>Student 2</p>
+          </a>
+
+          <a href="#" class="custom-button">
+            <img src="img/no.png" alt="Contact Icon">
+            <p>Student 3</p>
+          </a>
+
+          <audio id="clickSound" src="img/Michael Jackson Aaow - Sound Effect.mp3"></audio>
+
+        <script>
+            function playSound() {
+            const audio = document.getElementById("clickSound");
+            audio.play();
+            }
+        </script>
+    </div>
+      
+    <p>Designed by Girlfriend</p>
+
+      
+  </div>
+
+</body>
+</html>

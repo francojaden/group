@@ -1,0 +1,147 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family: 'Berkshire Swash', cursive;
+    background-color: pink;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth;
+  }
+  
+  /* Navigation bar */
+  .navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+  }
+  
+  .navbar a {
+    color: white;
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #61dafb;
+    transform: scale(1.1);
+  }
+  
+  /* Top Image Styling */
+  .top-image {
+    margin-top: 60px; /* To offset the navbar height */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .top-image img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    object-fit: cover;
+    
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background: url('https://source.unsplash.com/1600x900/?technology,landscape') no-repeat center center/cover;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    color: black;
+    font-size: 3em;
+    margin: 0.5em 0;
+  }
+  
+  .hero p {
+    color: black;
+    font-size: 1.5em;
+  }
+  
+  /* Section styling */
+  .section {
+    width: 80%;
+    max-width: 900px;
+    padding: 80px 20px;
+    text-align: center;
+    margin-top: 60px; /* To offset fixed navbar */
+    
+  }
+  
+  .section:nth-child(odd) {
+    background-color: #ed86cdfc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 80px;
+  }
+  
+  .section h2 {
+    font-size: 2.2em;
+    margin-bottom: 0.5em;
+    color: black;
+  }
+  
+  .section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: black;
+  }
+  
+  /* Button Container Styling */
+  .button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Custom Button Styling */
+  .custom-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ff37de;
+    color: #282c34;
+    text-decoration: none;
+    width: 150px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .custom-button img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
+  
+  .custom-button p {
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  .custom-button:hover {
+    transform: scale(1.1);
+  }
+  
