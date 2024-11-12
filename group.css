@@ -1,8 +1,8 @@
-/* General styling */
+
 body {
     margin: 0;
     font-family: 'Berkshire Swash', cursive;
-    background-color: pink;
+    background-color: grey;
     color: white;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@ body {
     scroll-behavior: smooth;
   }
   
-  /* Navigation bar */
+  
   .navbar {
     width: 100%;
     position: fixed;
@@ -37,9 +37,9 @@ body {
     transform: scale(1.1);
   }
   
-  /* Top Image Styling */
+
   .top-image {
-    margin-top: 60px; /* To offset the navbar height */
+    margin-top: 60px; 
     width: 100%;
     display: flex;
     justify-content: center;
@@ -53,7 +53,6 @@ body {
     
   }
   
-  /* Hero Section */
   .hero {
     display: flex;
     flex-direction: column;
@@ -76,18 +75,18 @@ body {
     font-size: 1.5em;
   }
   
-  /* Section styling */
+  
   .section {
     width: 80%;
     max-width: 900px;
     padding: 80px 20px;
     text-align: center;
-    margin-top: 60px; /* To offset fixed navbar */
+    margin-top: 60px; 
     
   }
   
   .section:nth-child(odd) {
-    background-color: #ed86cdfc;
+    background-color: #695b64fc;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     margin-bottom: 80px;
@@ -96,16 +95,15 @@ body {
   .section h2 {
     font-size: 2.2em;
     margin-bottom: 0.5em;
-    color: black;
+    color: white;
   }
   
   .section p {
     font-size: 1.2em;
     line-height: 1.6;
-    color: black;
+    color: whitesmoke;
   }
   
-  /* Button Container Styling */
   .button-container {
     display: flex;
     gap: 20px;
@@ -113,14 +111,14 @@ body {
     margin-top: 20px;
   }
   
-  /* Custom Button Styling */
+  
   .custom-button {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: #ff37de;
+    background-color: #514c4cc0;
     color: #282c34;
     text-decoration: none;
     width: 150px;
